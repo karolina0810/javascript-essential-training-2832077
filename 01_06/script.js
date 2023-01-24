@@ -4,19 +4,20 @@
 
 // Single line comment
 
+
 /* Multi-line comment
 See! this line is also commented out! */
 
-const updateBackpack = (update) => {
-  let main = document.querySelector("main"); // main is an element
-  main.innerHTML = markup(backpack);
+const updateBackpack = (update) =>{
+  let main = document.querySelector ("main");// main is an element
+  main.innerHTML = markup (backpack);
   console.info(update);
 };
 
-const backpack = {
+const backpack ={
   name: "Everyday Backpack",
   volume: 30,
-  color: "grey",
+color: "grey",
   pocketNum: 15,
   strapLength: {
     left: 26,
